@@ -1,0 +1,23 @@
+{
+  "name": "logs",
+  "version": "1.0.0",
+  "description": "Log all events to file/db/discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phillip K.",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "randomstring": "^1.2.1",
+    "shelljs": "^0.8.4",
+    "wumpfetch": "^0.3.1"
+  },
+  "devDependencies": {
+    "docker-compose": "^0.23.13"
+  }
+}
